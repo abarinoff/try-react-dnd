@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+}
+
+.application-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.application-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.page {
+    min-height: 300px;
+}
+
+.sidebar-section {
+    padding: 15px;
+    margin: 0 -15px 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.section {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.section.placeholder {
+    background-color: yellow;
+    border-radius: 4px;
+    border-color: gray;
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding: 15px;
+    min-height: 150px;
+}
+
+.section-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.section-content {
+    margin-bottom: 5px;
+}
+
+.isOver {
+    background-color: yellow;
+}
+
+.isBeingDragged {
+    background-color: red;
+}
